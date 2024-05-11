@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective: 500px;
+
+}
+
+.conteiner {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	transform-style: preserve-3d;
+	scale: 0.7;
+
+}
+
+h1 {
+	color: rgb(16, 75, 165);
+	text-align: center;
+	text-shadow: 1px 1px 1px #0abddd;
+}
+
+.skin {
+
+	border: 5px double rgb(11, 1, 59);
+	text-align: center;
+	font-size: 30px;
+	background: rgb(34, 193, 195);
+	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+	/* margin-bottom: 10px;
+	padding-bottom: 10px; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	font-weight: 900;
+	font-style: italic;
+	display: grid;
+	row-gap: 15px;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+	padding: 0 20px;
+
+}
+
+.a {
+	transform: translateZ(150px);
+}
+
+.b {
+	transform: rotateY(180deg) translateZ(150px);
+}
+
+.c {
+	transform: rotateY(-90deg) translateZ(150px);
+}
+
+.d {
+	transform: rotateY(90deg) translateZ(150px);
+}
+
+.e {
+	transform: rotateX(90deg) translateZ(150px);
+}
+
+.f {
+	transform: rotateX(-90deg) translateZ(150px);
+}
+
+.cont span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 190px;
+	margin-left: 30px;
+	border-radius: 5px;
+	box-shadow: 4px 9px 12px
+}
+
+input {
+	border: 2px solid rgb(33, 75, 212);
+	height: 20px;
+	font-weight: 900;
+	margin-top: 0 20px;
+
+}
+
+input::placeholder {
+	color: rgba(0, 0, 139, 0.479);
+}
+
+input[type='text'] {
+	border-radius: 5px;
+}
+
+input[type='checkbox'] {}
+
+
+label {
+	font-size: small;
+	margin-left: 1%;
+
+}
+
+span {
+	display: flex;
+}
